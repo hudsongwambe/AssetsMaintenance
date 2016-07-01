@@ -49,7 +49,7 @@
 							<div class="row-fluid">
 								<div class="span6">
 									<div class="carousal-container">
-										<div><h2></h2></div>
+										<div><h2> Free the data </h2></div>
 										<ul class="bxslider">
 											<li>
 												<div id="slide01" class="slide">

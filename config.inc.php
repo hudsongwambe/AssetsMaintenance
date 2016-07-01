@@ -49,7 +49,7 @@ $HELPDESK_SUPPORT_EMAIL_REPLY_ID = $HELPDESK_SUPPORT_EMAIL_ID;
 $dbconfig['db_server'] = 'localhost';
 $dbconfig['db_port'] = ':3306';
 $dbconfig['db_username'] = 'root';
-$dbconfig['db_password'] = '';
+$dbconfig['db_password'] = 'eli143mose';
 $dbconfig['db_name'] = 'vtiger';
 $dbconfig['db_type'] = 'mysqli';
 $dbconfig['db_status'] = 'true';
@@ -86,7 +86,7 @@ $site_URL = 'http://localhost/AssetsMaintenance/';
 // url for customer portal (Example: http://vtiger.com/portal)
 $PORTAL_URL = $site_URL.'/customerportal';
 // root directory path
-$root_directory = '/Applications/XAMPP/xamppfiles/htdocs/AssetsMaintenance/';
+$root_directory = '/var/www/html/AssetsMaintenance/';
 
 // cache direcory path
 $cache_dir = 'cache/';
