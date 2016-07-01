@@ -49,7 +49,7 @@
 							<div class="row-fluid">
 								<div class="span6">
 									<div class="carousal-container">
-										<div><h2>Welcome to PMMS</h2></div>
+										<div><h2></h2></div>
 										<ul class="bxslider">
 											<li>
 												<div id="slide01" class="slide">
@@ -173,19 +173,14 @@
 					<div class="row-fluid">
 						<div class="span6 pull-left" >
 							<div class="footer-content">
-								<small>&#169 2004-{date('Y')}&nbsp;
-									<a href="https://www.vtiger.com"> vtiger.com</a> | 
-									<a href="https://www.vtiger.com/LICENSE.txt">Read License</a> | 
-									<a href="https://www.vtiger.com/products/crm/privacy_policy.html">Privacy Policy</a> </small>
+								<small> UDSM-CoICT All Rights Reserved &#169 2013-{date('Y')}&nbsp;
+									</small>
 							</div>
 						</div>
 						<div class="span6 pull-right" >
 							<div class="pull-right footer-icons">
-								<small>{vtranslate('LBL_CONNECT_WITH_US', $MODULE)}&nbsp;</small>
-								<a href="https://www.facebook.com/vtiger"><img src="layouts/vlayout/skins/images/facebook.png"></a>
-								&nbsp;<a href="https://twitter.com/vtigercrm"><img src="layouts/vlayout/skins/images/twitter.png"></a>
-								&nbsp;<a href="https://www.linkedin.com/company/vtiger-systems-india-pvt-ltd"><img src="layouts/vlayout/skins/images/linkedin.png"></a>
-								&nbsp;<a href="http://www.youtube.com/user/vtigercrm"><img src="layouts/vlayout/skins/images/youtube.png"></a> 
+								<small></small>
+								 
 							</div>
 						</div>
 					</div>   
