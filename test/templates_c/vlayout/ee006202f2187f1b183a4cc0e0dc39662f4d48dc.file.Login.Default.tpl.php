@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.7, created on 2016-07-05 10:12:52
+<?php /* Smarty version Smarty-3.1.7, created on 2016-07-05 15:45:29
          compiled from "/var/www/html/AssetsMaintenance/includes/runtime/../../layouts/vlayout/modules/Users/Login.Default.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:236678930575e78f81cbf70-68290694%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'ee006202f2187f1b183a4cc0e0dc39662f4d48dc' => 
     array (
       0 => '/var/www/html/AssetsMaintenance/includes/runtime/../../layouts/vlayout/modules/Users/Login.Default.tpl',
-      1 => 1467712968,
+      1 => 1467733523,
       2 => 'file',
     ),
   ),
@@ -29,7 +29,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <?php if ($_valid && !is_callable('content_575e78f8253c4')) {function content_575e78f8253c4($_smarty_tpl) {?>
 <!DOCTYPE html><html><head><title>Vtiger login page</title><meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- for Login page we are added --><link href="libraries/bootstrap/css/bootstrap.min.css" rel="stylesheet"><link href="libraries/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet"><link href="libraries/bootstrap/css/jqueryBxslider.css" rel="stylesheet" /><script src="libraries/jquery/jquery.min.js"></script><script src="libraries/jquery/boxslider/jqueryBxslider.js"></script><script src="libraries/jquery/boxslider/respond.min.js"></script><script>jQuery(document).ready(function(){scrollx = jQuery(window).outerWidth();window.scrollTo(scrollx,0);slider = jQuery('.bxslider').bxSlider({auto: true,pause: 4000,randomStart : true,autoHover: true});jQuery('.bx-prev, .bx-next, .bx-pager-item').live('click',function(){ slider.startAuto(); });});</script></head><body><div class="container-fluid login-container"><div class="logo"><img src="layouts/vlayout/skins/images/logo.png"><br /><a target="_blank" href="http://<?php echo $_smarty_tpl->tpl_vars['COMPANY_DETAILSCOMPANY_DETAILS']->value['website'];?>
 "><?php echo $_smarty_tpl->tpl_vars['COMPANY_DETAILS']->value['name'];?>
-</a></div><div class="row-fluid"><div class="span12"><div class="content-wrapper"><div class="container-fluid"><div class="row-fluid"><div class="span6"><div class="carousal-container"><div><h2> Free the data </h2></div><ul class="bxslider"><li><div id="slide01" class="slide"><img class="center" src="<?php echo vimage_path('android_text.png');?>
+</a></div><div class="row-fluid"><div class="span12"><div class="content-wrapper"><div class="container-fluid"><div class="row-fluid"><div class="span6"><div class="carousal-container"><div><h3> Welcome </h3></div><ul class="bxslider"><li><div id="slide01" class="slide"><img class="center" src="<?php echo vimage_path('android_text.png');?>
 "></div></li><li><div id="slide02" class="slide"><img class="center" src="<?php echo vimage_path('iphone.png');?>
 "/></div></li><li><div id="slide03" class="slide"><img class="center" src="<?php echo vimage_path('ipad.png');?>
 "/></div></li><li><div id="slide04" class="slide"><img class="center" src="<?php echo vimage_path('exchange_conn_text.png');?>

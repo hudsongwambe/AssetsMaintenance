@@ -218,11 +218,6 @@ body{
     margin-bottom:16px;
     float: center;
 
-
-
-
-
-
 }
 
 .login-header{
@@ -284,10 +279,10 @@ body{
 .slide{
     padding: 0%;
     min-width: 550px;
-    min-height: 200px;
+    min-height: 170px;
     text-align: center;
     vertical-align: middle;
-    width: 550px\7;
+    width: 550px\5;
 }
 .slide img{
     display: inline-block;

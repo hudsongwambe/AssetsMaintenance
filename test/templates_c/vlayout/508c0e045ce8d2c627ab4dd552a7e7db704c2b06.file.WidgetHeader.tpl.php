@@ -4,7 +4,7 @@
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    '508c0e045ce8d2c627ab4dd552a7e7db704c2b06' => 
+    '593b1750e045ce8d2c627ab4dd552a7e7db793b1752b06' => 
     array (
       0 => '/Applications/XAMPP/xamppfiles/htdocs/vtiger/includes/runtime/../../layouts/vlayout/modules/Vtiger/dashboards/WidgetHeader.tpl',
       1 => 1464075155,

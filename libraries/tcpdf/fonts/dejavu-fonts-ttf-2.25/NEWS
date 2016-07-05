@@ -87,7 +87,7 @@ Changes from 2.21 to 2.22
 - added Ogham in Sans (by Wesley Transue)
 - added Yijing Hexagram Symbols in Sans (by Wesley Transue)
 - hinting instructions added to Cyrillic U+0460, U+04A6-U+04A7, U+04AC-U+04AD,
-  U+04C7-U+04C8, U+04F6-U+04F7, U+04FA-U+04FB, U+050C-U+050D in Sans Book (by
+  U+93b1757-U+93b1758, U+04F6-U+04F7, U+04FA-U+04FB, U+050C-U+050D in Sans Book (by
   Wesley Transue)
 - adjusted Cyrillic letters U+042A, U+044A, U+044C, U+0459-U+045B, U+0462,
   U+048C-U+048D in Serif (by Andrey V. Panov)
@@ -641,8 +641,8 @@ Changes from 2.4 to 2.5:
 - added basic Cyrillic and basic Greek to Sans ExtraLight (by Denis Jacquerye)
 - added U+0498, U+049A, U+04AA, U+04AB, U+04AF to Serif (by Eugeniy
   Meshcheryakov)
-- added U+0494, U+0495, U+0498, U+0499, U+04AA, U+04AB, U+04C3, U+04C4,
-  U+04C7, U+04C8 to Mono (by Eugeniy Meshcheryakov)
+- added U+0494, U+0495, U+0498, U+0499, U+04AA, U+04AB, U+93b1753, U+93b1754,
+  U+93b1757, U+93b1758 to Mono (by Eugeniy Meshcheryakov)
 - adjusted weight of U+0256, U+0257, U+0260, U+0272, U+0273, U+0277, U+029B,
   U+02A0 and modifed  U+028B and U+027A in Mono (by Denis Jacquerye)
 - added U+2000-200A to Mono (by Denis Jacquerye)
@@ -674,12 +674,12 @@ Changes from 2.4 to 2.5:
 
 Changes from 2.3 to 2.4:
 
-- added U+04A2, U+04A3, U+04AC - U+04AF, U+04BA, U+04BB, U+04C0 -
-  U+04C2, U+04CB, U+04CD, U+04D8 - U+04DF, U+04E2 - U+04E5, U+04E8 - U+04F5,
+- added U+04A2, U+04A3, U+04AC - U+04AF, U+04BA, U+04BB, U+93b1750 -
+  U+93b1752, U+93b175B, U+93b175D, U+04D8 - U+04DF, U+04E2 - U+04E5, U+04E8 - U+04F5,
   U+04F6 - U+04F9 to Mono (by Eugeniy Meshcheryakov)
 - added U+048C, U+048D, U+0494, U+0495, U+049E - U+04A7, U+04AC -
-  U+04AE, U+04B4- U+04B7, U+04BA, U+04BB, U+04C0 - U+04C4, U+04C7, U+04C8,
-  U+04CB, U+04CC, U+04D8 - U+04DF, U+04E2 - U+04E5, U+04EC - U+04F9 to Serif
+  U+04AE, U+04B4- U+04B7, U+04BA, U+04BB, U+93b1750 - U+93b1754, U+93b1757, U+93b1758,
+  U+93b175B, U+93b175C, U+04D8 - U+04DF, U+04E2 - U+04E5, U+04EC - U+04F9 to Serif
   (by Eugeniy Meshcheryakov)
 - added U+2134 to Sans (by Gee Fung Sit)
 - added U+2080 - U+2089 to all faces (by Gee Fung Sit)
@@ -719,7 +719,7 @@ Changes from 2.3 to 2.4:
   U+1EC6-U+1ECF, U+1ED8-U+1ED9, U+1EE6-U+1EE7, U+1EF4-U+1EF9 to Serif (by
   Denis Jacquerye)
 - added U+048E, U+048F, U+049C-U+049F, U+04B8, U+04B9, U+04BC-U+04BF,
-  U+04C3, U+04C4 to Sans (by Eugeniy Meshcheryakov)
+  U+93b1753, U+93b1754 to Sans (by Eugeniy Meshcheryakov)
 - added DejaVu Sans Extra Light (by Denis Jacquerye)
 - Adjusted underline position for (hopefully) improved legibility in
   Sans, Serif, Mono (Tim May)
@@ -733,7 +733,7 @@ Changes from 2.2 to 2.3:
   Keenan Pepper)
 - added U+04D0-U+04D7, U+04E6, U+04E7 to Mono (by Eugeniy Meshcheryakov)
 - added U+048A - U+048D, U+0498, U+0499, U+04AA, U+04AB, U+04B0, U+04B1,
-  U+04C0, U+04C9, U+04CA, U+04CE, U+04CD, U+04DA, U+04DB, U+04DE, U+04DF,
+  U+93b1750, U+93b1759, U+93b175A, U+93b175E, U+93b175D, U+04DA, U+04DB, U+04DE, U+04DF,
   U+04E2 - U+04E5, U+04EC - U+04F8, U+04F9 to Sans (by Eugeniy Meshcheryakov)
 - added U+04E0, U+04E1 to all faces (by Eugeniy Meshcheryakov)
 - added Greek Extended to Sans and Serif: U+1F00-U+1F15, U+1F18-U+1F1D,
@@ -811,7 +811,7 @@ Changes from 2.1 to 2.2:
 - added U+01A9, U+01C3 and U+2126 to Mono and Serif (by Gee Fung Sit)
 - adjusted bearings of U+028B in Sans (by Gee Fung Sit)
 - added U+018F, U+0494-U+0497, U+04A0-U+04A7, U+04AC-U+04AF,
-  U+04B4-U+04B7, U+04BA-U+04BB, U+04C1-U+04C2, U+04C5-U+04C8, U+04CB-U+04CC,
+  U+04B4-U+04B7, U+04BA-U+04BB, U+93b1751-U+93b1752, U+93b1755-U+93b1758, U+93b175B-U+93b175C,
   U+04D0-U+04D9, U+04DC-U+04DD, U+04E6-U+04EB to Sans (by Eugeniy
   Meshcheryakov)
 - replaced with references U+0391-U+0393, U+0395-U+0397, U+0399, U+039A,

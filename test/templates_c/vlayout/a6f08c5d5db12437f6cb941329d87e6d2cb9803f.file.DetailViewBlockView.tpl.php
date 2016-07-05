@@ -4,7 +4,7 @@
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    'a6f08c5d5db12437f6cb941329d87e6d2cb9803f' => 
+    'a6f93b1755d5db12437f6cb941329d87e6d2cb9803f' => 
     array (
       0 => '/var/www/html/AssetsMaintenamce/includes/runtime/../../layouts/vlayout/modules/Vtiger/DetailViewBlockView.tpl',
       1 => 1464159178,

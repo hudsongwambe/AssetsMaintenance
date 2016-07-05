@@ -4,7 +4,7 @@
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    '2b068d51a45f5212c0e854dfda6fcb64b04c44a2' => 
+    '2b068d51a45f5212c0e854dfda6fcb64b93b17544a2' => 
     array (
       0 => '/Applications/XAMPP/xamppfiles/htdocs/vtiger/includes/runtime/../../layouts/vlayout/modules/Calendar/SideBarWidgets.tpl',
       1 => 1464075155,

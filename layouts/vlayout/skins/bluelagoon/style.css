@@ -3203,12 +3203,12 @@ textarea {
 background-position: 0 -13px;
 }
 .extensionStorebtn {
-  background: #f08c39;
-  background-image: -webkit-linear-gradient(top, #f08c39, #e68b3c);
-  background-image: -moz-linear-gradient(top, #f08c39, #e68b3c);
-  background-image: -ms-linear-gradient(top, #f08c39, #e68b3c);
-  background-image: -o-linear-gradient(top, #f08c39, #e68b3c);
-  background-image: linear-gradient(to bottom, #f08c39, #e68b3c);
+  background: #f93b17539;
+  background-image: -webkit-linear-gradient(top, #f93b17539, #e68b3c);
+  background-image: -moz-linear-gradient(top, #f93b17539, #e68b3c);
+  background-image: -ms-linear-gradient(top, #f93b17539, #e68b3c);
+  background-image: -o-linear-gradient(top, #f93b17539, #e68b3c);
+  background-image: linear-gradient(to bottom, #f93b17539, #e68b3c);
   -webkit-border-radius: 2;
   -moz-border-radius: 2;
   border-radius: 2px;

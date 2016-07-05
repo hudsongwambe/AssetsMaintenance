@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.7, created on 2016-06-26 11:41:28
+<?php /* Smarty version Smarty-3.1.7, created on 2016-07-05 14:37:55
          compiled from "/var/www/html/AssetsMaintenance/includes/runtime/../../layouts/vlayout/modules/Settings/MenuEditor/Index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:694821198576fbf6811bd34-61738945%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '59986242a4d1a57663b6596ff1f3dabd0a8bf1e7' => 
     array (
       0 => '/var/www/html/AssetsMaintenance/includes/runtime/../../layouts/vlayout/modules/Settings/MenuEditor/Index.tpl',
-      1 => 1465809616,
+      1 => 1467381151,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.7',
+  'unifunc' => 'content_576fbf682e4e7',
   'variables' => 
   array (
     'QUALIFIED_MODULE' => 0,
@@ -27,8 +29,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'TABID' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.7',
-  'unifunc' => 'content_576fbf682e4e7',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_576fbf682e4e7')) {function content_576fbf682e4e7($_smarty_tpl) {?>
 <div class="container-fluid" id="menuEditorContainer"><div class="widget_header row-fluid"><div class="span8"><h3><?php echo vtranslate('LBL_MENU_EDITOR',$_smarty_tpl->tpl_vars['QUALIFIED_MODULE']->value);?>

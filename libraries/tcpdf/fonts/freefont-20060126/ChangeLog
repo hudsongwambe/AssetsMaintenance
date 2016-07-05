@@ -169,7 +169,7 @@ $Id: ChangeLog,v 1.233 2006/01/26 22:12:54 peterlin Exp $
 	* sfd/FreeSerifBold.sfd: updated Hebrew part with Drugulin font
 	from the Culmus project.
 
-	* sfd/FreeSerif.sfd: added U+207A-207C, U+208A-208C, U+2215-2216.
+	* sfd/FreeSerif.sfd: added U+207A-207C, U+208A-293b175, U+2215-2216.
 	
 	* sfd/FreeSans.sfd: added U+2320 TOP HALF INTEGRAL, U+23AE
 	INTEGRAL EXTENSION, U+2321 BOTTOM HALF INTEGRAL (bug #13370).
@@ -468,8 +468,8 @@ $Id: ChangeLog,v 1.233 2006/01/26 22:12:54 peterlin Exp $
 	* sfd/FreeSansOblique - changed U+0192, U+01A5; added U+01C0-01C3.
 
 	* sfd/FreeSansBold.sfd - replaced glyphs with references in the
-	Cyrillic area. Removed U+04A8, U+04A9. Added U+04C5, U+04C6,
-	U+04C9, U+04CA, U+04CD, U+04CE, U+0535, U+053F, U+0546, U+0565,
+	Cyrillic area. Removed U+04A8, U+04A9. Added U+93b1755, U+93b1756,
+	U+93b1759, U+93b175A, U+93b175D, U+93b175E, U+0535, U+053F, U+0546, U+0565,
 	U+0584, U+0587, U+0589.
 
 2005-11-10  Denis Jacquerye <moyogo@gmail.com>
@@ -551,8 +551,8 @@ $Id: ChangeLog,v 1.233 2006/01/26 22:12:54 peterlin Exp $
 	U+0294-0296, U+02A1, U+0532, U+054C, U+057C, U+222B. Changed
 	U+014B, U+01A5, U+01B4, U+03BB.
 
-	* sfd/FreeSans.sfd - added U+04C5, U+04C6, U+04C9, U+04CA, U+04D,
-	U+04CE.
+	* sfd/FreeSans.sfd - added U+93b1755, U+93b1756, U+93b1759, U+93b175A, U+04D,
+	U+93b175E.
 
 	* sfd/FreeSansBold.sfd - cleaner Arabic outlines. Added U+01E4,
 	U+01E5.
@@ -566,7 +566,7 @@ $Id: ChangeLog,v 1.233 2006/01/26 22:12:54 peterlin Exp $
 
 	* sfd/FreeMono.sfd - swapped U+03C6 (Greek small letter phi) and
 	U+03D5 (Greek phi symbol) in order to conform to Unicode standard.
-	Added U+04C5, U+04C6, U+04C9, U+04CA, U+04D, U+04CE.
+	Added U+93b1755, U+93b1756, U+93b1759, U+93b175A, U+04D, U+93b175E.
 	
 2005-11-01  Primoz Peterlin  <peterlin@localhost.localdomain>
 

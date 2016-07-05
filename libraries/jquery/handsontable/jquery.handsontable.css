@@ -236,11 +236,11 @@ AutocompleteRenderer down arrow
 .typeahead li > a:hover, .typeahead .active > a, .typeahead .active > a:hover {
   color: white;
   text-decoration: none;
-  background-color: #08C;
+  background-color: #93b175;
 }
 
 .typeahead a {
-  color: #08C;
+  color: #93b175;
   text-decoration: none;
 }
 

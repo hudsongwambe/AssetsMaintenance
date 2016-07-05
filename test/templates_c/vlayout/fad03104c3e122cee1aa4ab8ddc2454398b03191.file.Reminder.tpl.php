@@ -4,7 +4,7 @@
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    'fad03104c3e122cee1aa4ab8ddc2454398b03191' => 
+    'fad03193b1753e122cee1aa4ab8ddc2454398b03191' => 
     array (
       0 => '/var/www/html/vtiger/includes/runtime/../../layouts/vlayout/modules/Vtiger/uitypes/Reminder.tpl',
       1 => 1398442051,

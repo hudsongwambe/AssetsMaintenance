@@ -4,7 +4,7 @@
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    'c534408c6316970a2d0d2bd73f22bb05732b6048' => 
+    'c534493b1756316970a2d0d2bd73f22bb05732b6048' => 
     array (
       0 => '/var/www/html/AssetsMaintenamce/includes/runtime/../../layouts/vlayout/modules/Settings/Vtiger/Sidebar.tpl',
       1 => 1464159178,

@@ -1178,7 +1178,7 @@ class PHPExcel_Writer_Excel5_Workbook extends PHPExcel_Writer_Excel5_BIFFwriter
 	 */
 	private function _writeCountry()
 	{
-		$record          = 0x008C;    // Record identifier
+		$record          = 0x093b175;    // Record identifier
 		$length          = 4;         // Number of bytes to follow
 
 		$header = pack('vv',  $record, $length);
