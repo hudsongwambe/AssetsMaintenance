@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.7, created on 2016-06-24 07:57:59
+<?php /* Smarty version Smarty-3.1.7, created on 2016-07-03 12:04:22
          compiled from "/var/www/html/AssetsMaintenance/includes/runtime/../../layouts/vlayout/modules/Vtiger/DetailViewBlockView.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:683052107576ce80772cec3-44330506%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '70af16d6e89145fa5e8e6c4768961476ccec55d6' => 
     array (
       0 => '/var/www/html/AssetsMaintenance/includes/runtime/../../layouts/vlayout/modules/Vtiger/DetailViewBlockView.tpl',
-      1 => 1465809616,
+      1 => 1467381151,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.7',
+  'unifunc' => 'content_576ce8079f7c7',
   'variables' => 
   array (
     'RECORD_STRUCTURE' => 0,
@@ -39,8 +41,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'IS_AJAX_ENABLED' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.7',
-  'unifunc' => 'content_576ce8079f7c7',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_576ce8079f7c7')) {function content_576ce8079f7c7($_smarty_tpl) {?>
 <?php  $_smarty_tpl->tpl_vars['FIELD_MODEL_LIST'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['FIELD_MODEL_LIST']->_loop = false;

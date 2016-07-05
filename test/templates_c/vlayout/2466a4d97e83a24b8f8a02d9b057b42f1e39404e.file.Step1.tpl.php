@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.7, created on 2016-06-26 12:59:54
+<?php /* Smarty version Smarty-3.1.7, created on 2016-07-05 11:30:11
          compiled from "/var/www/html/AssetsMaintenance/includes/runtime/../../layouts/vlayout/modules/Reports/Step1.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1120477043576fd1ca11fa96-52128724%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '2466a4d97e83a24b8f8a02d9b057b42f1e39404e' => 
     array (
       0 => '/var/www/html/AssetsMaintenance/includes/runtime/../../layouts/vlayout/modules/Reports/Step1.tpl',
-      1 => 1465809616,
+      1 => 1467381151,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.7',
+  'unifunc' => 'content_576fd1ca42048',
   'variables' => 
   array (
     'MODULE' => 0,
@@ -60,8 +62,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'ACTIVE_ADMIN' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.7',
-  'unifunc' => 'content_576fd1ca42048',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_576fd1ca42048')) {function content_576fd1ca42048($_smarty_tpl) {?>
 <div class="reportContents"><form class="form-horizontal recordEditView" id="report_step1" method="post" action="index.php"><input type="hidden" name="module" value="<?php echo $_smarty_tpl->tpl_vars['MODULE']->value;?>

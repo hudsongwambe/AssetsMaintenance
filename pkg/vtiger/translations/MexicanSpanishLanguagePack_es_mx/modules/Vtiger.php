@@ -12,7 +12,7 @@
  ************************************************************************************/
 $languageStrings = array(
 	'APPTITLE'                     => 'vtiger CRM'                  , 
-	'POWEREDBY'                    => 'Powered by vtiger CRM  & Odin Consultores &copy; <a href="http://www.odin.mx" target="_blank">www.odin.mx</a>',
+	'POWEREDBY'                    => 'CoICT UDSM  & Odin Consultores &copy; <a href="http://www.odin.mx" target="_blank">www.odin.mx</a>',
 	'LBL_USERS'					   => 'Usuarios',
 	'LBL_READ_LICENSE'             => 'Leer Licencia'               , 
 	'LBL_PRIVACY_POLICY'           => 'Política de Privacidad'     , 

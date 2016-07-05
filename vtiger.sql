@@ -12159,7 +12159,7 @@ CREATE TABLE `vtiger_version` (
 
 LOCK TABLES `vtiger_version` WRITE;
 /*!40000 ALTER TABLE `vtiger_version` DISABLE KEYS */;
-INSERT INTO `vtiger_version` VALUES (1,'6.4.0','6.4.0');
+INSERT INTO `vtiger_version` VALUES (1,'','');
 /*!40000 ALTER TABLE `vtiger_version` ENABLE KEYS */;
 UNLOCK TABLES;
 

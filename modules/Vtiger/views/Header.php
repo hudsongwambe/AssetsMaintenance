@@ -53,13 +53,13 @@ abstract class Vtiger_Header_View extends Vtiger_View_Controller {
 
 		$headerLinks = array(
 				// Note: This structure is expected to generate side-bar feedback button.
-			array (
+	/*		array (
 				'linktype' => 'HEADERLINK',
 				'linklabel' => 'LBL_FEEDBACK',
 				'linkurl' => "javascript:window.open('http://vtiger.com/products/crm/od-feedback/index.php?version=".$vtigerCurrentVersion.
 					"&email=".$userEmail."&uid=".$appUniqueKey.
 					"&ui=6','feedbackwin','height=400,width=550,top=200,left=300')",
-				'linkicon' => 'info.png',
+				//'linkicon' => 'info.png',
 				'childlinks' => array(
 					array (
 						'linktype' => 'HEADERLINK',
@@ -85,7 +85,7 @@ abstract class Vtiger_Header_View extends Vtiger_View_Controller {
 						'linkicon' => '',
 					)
 				)
-			)
+			)*/
 		);
 		
 		if($userModel->isAdminUser()) {

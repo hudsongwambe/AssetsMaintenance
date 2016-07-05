@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.7, created on 2016-06-24 07:58:14
+<?php /* Smarty version Smarty-3.1.7, created on 2016-07-05 10:17:59
          compiled from "/var/www/html/AssetsMaintenance/includes/runtime/../../layouts/vlayout/modules/CustomView/EditView.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:149733701576ce81697be03-26578670%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'dfd85e3c76d2e1fac739cb67949f3b41740520ac' => 
     array (
       0 => '/var/www/html/AssetsMaintenance/includes/runtime/../../layouts/vlayout/modules/CustomView/EditView.tpl',
-      1 => 1465809616,
+      1 => 1467381151,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.7',
+  'unifunc' => 'content_576ce816a99c6',
   'variables' => 
   array (
     'CUSTOMVIEW_MODEL' => 0,
@@ -34,8 +36,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'EVENT_RECORD_STRUCTURE' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.7',
-  'unifunc' => 'content_576ce816a99c6',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_576ce816a99c6')) {function content_576ce816a99c6($_smarty_tpl) {?>
 <?php $_smarty_tpl->tpl_vars['SELECTED_FIELDS'] = new Smarty_variable($_smarty_tpl->tpl_vars['CUSTOMVIEW_MODEL']->value->getSelectedFields(), null, 0);?><div class="container-fluid"><form class="form-inline" id="CustomView" name="CustomView" method="post" action="index.php"><input type=hidden name="record" id="record" value="<?php echo $_smarty_tpl->tpl_vars['RECORD_ID']->value;?>

@@ -9,7 +9,7 @@
  ************************************************************************************/
 $languageStrings = array(
 	'APPTITLE'                     => 'vtiger CRM'                  , 
-	'POWEREDBY'                    => 'Powered by vtiger CRM'       , 
+	'POWEREDBY'                    => 'CoICT UDSM'       , 
 	'LBL_READ_LICENSE'             => 'Read License'                , 
 	'LBL_PRIVACY_POLICY'           => 'Privacy Policy'              , 
 	'LBL_SELECT_ALL'               => 'Select All'                  , 

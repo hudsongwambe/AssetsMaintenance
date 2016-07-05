@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.7, created on 2016-06-25 13:54:16
+<?php /* Smarty version Smarty-3.1.7, created on 2016-07-05 11:30:44
          compiled from "/var/www/html/AssetsMaintenance/includes/runtime/../../layouts/vlayout/modules/Settings/Picklist/PickListValueDetail.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:70719465576e8d0808e752-44020217%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'a93dcf0729252c73c6e5f3333f2eb1d6529bb659' => 
     array (
       0 => '/var/www/html/AssetsMaintenance/includes/runtime/../../layouts/vlayout/modules/Settings/Picklist/PickListValueDetail.tpl',
-      1 => 1465809616,
+      1 => 1467381151,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.7',
+  'unifunc' => 'content_576e8d0819e6d',
   'variables' => 
   array (
     'QUALIFIED_MODULE' => 0,
@@ -28,8 +30,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'ROLE' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.7',
-  'unifunc' => 'content_576e8d0819e6d',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_576e8d0819e6d')) {function content_576e8d0819e6d($_smarty_tpl) {?>
 <ul class="nav nav-tabs massEditTabs" style="margin-bottom: 0;border-bottom: 0"><li class="active"><a href="#allValuesLayout" data-toggle="tab"><strong><?php echo vtranslate('LBL_ALL_VALUES',$_smarty_tpl->tpl_vars['QUALIFIED_MODULE']->value);?>

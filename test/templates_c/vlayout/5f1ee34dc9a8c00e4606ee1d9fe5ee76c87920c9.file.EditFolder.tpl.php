@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.7, created on 2016-06-27 18:43:09
+<?php /* Smarty version Smarty-3.1.7, created on 2016-07-05 11:32:31
          compiled from "/var/www/html/AssetsMaintenance/includes/runtime/../../layouts/vlayout/modules/Reports/EditFolder.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1994864498577173bd98c607-96860284%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '5f1ee34dc9a8c00e4606ee1d9fe5ee76c87920c9' => 
     array (
       0 => '/var/www/html/AssetsMaintenance/includes/runtime/../../layouts/vlayout/modules/Reports/EditFolder.tpl',
-      1 => 1465809616,
+      1 => 1467381151,
       2 => 'file',
     ),
   ),
@@ -15,14 +15,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.7',
+  'unifunc' => 'content_577173bd9d01b',
   'variables' => 
   array (
     'MODULE' => 0,
     'FOLDER_MODEL' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.7',
-  'unifunc' => 'content_577173bd9d01b',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_577173bd9d01b')) {function content_577173bd9d01b($_smarty_tpl) {?>
 <div id="addFolderContainer" class="modelContainer" style='min-width:350px;'><div class="modal-header"><button data-dismiss="modal" class="close" title="<?php echo vtranslate('LBL_CLOSE');?>
