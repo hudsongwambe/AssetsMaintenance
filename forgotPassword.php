@@ -37,20 +37,20 @@ if (isset($_REQUEST['user_name']) && isset($_REQUEST['emailId'])) {
             )
         );
         $trackURL = Vtiger_ShortURL_Helper::generateURL($options);
-        $content = 'Dear Customer,<br><br> 
-                            You recently requested a password reset for your VtigerCRM Open source Account.<br> 
+        $content = 'Dear user,<br><br> 
+                            You recently requested a password reset for your planned maintenance system Account.<br> 
                             To create a new password, click on the link <a target="_blank" href=' . $trackURL . '>here</a>. 
                             <br><br> 
                             This request was made on ' . date("Y-m-d H:i:s") . ' and will expire in next 24 hours.<br><br> 
 		            Regards,<br> 
-		            VtigerCRM Open source Support Team.<br>' ;
+		            PMMS  Support Team.<br>' ;
         $mail = new PHPMailer();
         $query = "select from_email_field,server_username from vtiger_systems where server_type=?";
         $params = array('email');
         $result = $adb->pquery($query,$params);
         $from = $adb->query_result($result,0,'from_email_field');
         if($from == '') {$from =$adb->query_result($result,0,'server_username'); }
-        $subject='Request : ForgotPassword - vtigercrm';
+        $subject='Request : ForgotPassword - pmms';
         
         setMailerProperties($mail,$subject, $content, $from, $username, $email);
         $status = MailSend($mail);
