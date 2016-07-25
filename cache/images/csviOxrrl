@@ -1,0 +1,7 @@
+"Asset No","Product Name","Asset Name","Serial Number","Date in Service","Assigned To",Status,Zone
+ASSET2,Building,"Administration Block","BLOCK A",2016-06-26,"mosses shio","In Service","Kijitonyama Campus"
+ASSET6,Building,Building,"BLOCK C",2016-07-23,"mosses shio",Out-of-service,"Kijitonyama Campus"
+ASSET3,Components,"Integrated circuit",TA342,2016-06-30,"mosses shio","In Service",-
+ASSET4,Fixtures,Pipes,345,2016-06-26,"mosses shio",Out-of-service,-
+ASSET1,Furniture,Table,FUR01,2016-07-27,"mosses shio","In Service",-
+ASSET5,Furniture,Chair,FUR04,2016-07-20,"mosses shio",Schedulled,-

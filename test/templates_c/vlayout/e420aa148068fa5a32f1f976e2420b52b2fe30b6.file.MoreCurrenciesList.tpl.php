@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.7, created on 2016-06-26 11:48:08
+<?php /* Smarty version Smarty-3.1.7, created on 2016-07-11 12:32:38
          compiled from "/var/www/html/AssetsMaintenance/includes/runtime/../../layouts/vlayout/modules/Products/MoreCurrenciesList.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1512481611576fc0f863bf17-39755259%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e420aa148068fa5a32f1f976e2420b52b2fe30b6' => 
     array (
       0 => '/var/www/html/AssetsMaintenance/includes/runtime/../../layouts/vlayout/modules/Products/MoreCurrenciesList.tpl',
-      1 => 1465809616,
+      1 => 1467381151,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.7',
+  'unifunc' => 'content_576fc0f879517',
   'variables' => 
   array (
     'MODULE' => 0,
@@ -26,8 +28,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'base_cur_check' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.7',
-  'unifunc' => 'content_576fc0f879517',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_576fc0f879517')) {function content_576fc0f879517($_smarty_tpl) {?>
 <div id="currency_class" class="multiCurrencyEditUI modelContainer"><div class="modal-header"><button data-dismiss="modal" class="floatRight close" type="button" title="<?php echo vtranslate('LBL_CLOSE');?>

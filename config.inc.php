@@ -33,7 +33,7 @@ $CHAT_DISPLAY = 'true';
 $USE_RTE = 'true';
 
 // helpdesk support email id and support name (Example: 'support@vtiger.com' and 'vtiger support')
-$HELPDESK_SUPPORT_EMAIL_ID = 'joseph.f.henry@gmail.com';
+$HELPDESK_SUPPORT_EMAIL_ID = 'elipokeamosses@gmail.com';
 $HELPDESK_SUPPORT_NAME = 'your-support name';
 $HELPDESK_SUPPORT_EMAIL_REPLY_ID = $HELPDESK_SUPPORT_EMAIL_ID;
 
@@ -102,7 +102,7 @@ $upload_dir = 'cache/upload/';
 
 // maximum file size for uploaded files in bytes also used when uploading import files
 // upload_maxsize default value = 3000000
-$upload_maxsize = 3000000;
+$upload_maxsize = 3145728;
 
 // flag to allow export functionality
 // 'all' to allow anyone to use exports 
@@ -188,7 +188,7 @@ $disable_stats_tracking = false;
 $application_unique_key = '918f9709bc9ffbcde787a3df157ceb59';
 
 // trim descriptions, titles in listviews to this value
-$listview_max_textlength = 40;
+$listview_max_textlength = '40';
 
 // Maximum time limit for PHP script execution (in seconds)
 $php_max_execution_time = 0;

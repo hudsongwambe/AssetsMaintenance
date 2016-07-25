@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.7, created on 2016-06-26 13:26:16
+<?php /* Smarty version Smarty-3.1.7, created on 2016-07-07 10:12:32
          compiled from "/var/www/html/AssetsMaintenance/includes/runtime/../../layouts/vlayout/modules/Vtiger/uitypes/Recurrence.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:658414101576fd7f86a7932-30328991%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9a1876dae8a1dd1ecf070d7d9aa7689edf633a87' => 
     array (
       0 => '/var/www/html/AssetsMaintenance/includes/runtime/../../layouts/vlayout/modules/Vtiger/uitypes/Recurrence.tpl',
-      1 => 1465809616,
+      1 => 1467381151,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.7',
+  'unifunc' => 'content_576fd7f883aea',
   'variables' => 
   array (
     'RECURRING_INFORMATION' => 0,
@@ -24,8 +26,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'TOMORROWDATE' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.7',
-  'unifunc' => 'content_576fd7f883aea',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_576fd7f883aea')) {function content_576fd7f883aea($_smarty_tpl) {?>
 <div class="row-fluid"><div class="span"><input type="checkbox" name="recurringcheck" value="" <?php if ($_smarty_tpl->tpl_vars['RECURRING_INFORMATION']->value['recurringcheck']=='Yes'){?>checked<?php }?>/>&nbsp;&nbsp;</div><div class="<?php if ($_smarty_tpl->tpl_vars['RECURRING_INFORMATION']->value['recurringcheck']=='Yes'){?>show<?php }else{ ?>hide<?php }?> span" id="repeatUI" style="width:90%;"><div class="row-fluid"><span class="span" style="width:150px;"><span class="alignMiddle" style="margin-right: 6%"><?php echo vtranslate('LBL_REPEATEVENT',$_smarty_tpl->tpl_vars['MODULE']->value);?>
